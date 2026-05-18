@@ -7,13 +7,16 @@ export function AboutSection() {
       <div className="about-image-panel">
         
         <div className="about-image-frame">
-          <Image
-            src={imageUrls.about}
-            alt="Cinematographer filming with a professional camera"
-            fill
-            priority={false}
-            sizes="(max-width: 980px) 78vw, 37vw"
-          />
+         <video
+  className="about-video"
+  autoPlay
+  loop
+  muted
+  playsInline
+  preload="metadata"
+>
+  <source src="/videos/about-video.mp4" type="video/mp4" />
+</video>
         </div>
       </div>
       <div className="about-copy">
