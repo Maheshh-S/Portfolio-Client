@@ -5,9 +5,7 @@ export function AboutSection() {
   return (
     <section className="about-section" id="collection" aria-labelledby="about-title">
       <div className="about-image-panel">
-        <div className="stamp" aria-hidden="true">
-          VYBN VISUALS · MYSORE ·
-        </div>
+        
         <div className="about-image-frame">
           <Image
             src={imageUrls.about}

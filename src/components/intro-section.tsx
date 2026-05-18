@@ -9,9 +9,10 @@ export function IntroSection() {
         <p className="eyebrow">Welcome to</p>
         <h2 id="intro-title">VYBN Visuals</h2>
         <p>
-          A Mysore-based video portfolio for cinematic promos, aftermovies, concerts, DJ shoots,
-          car delivery films, and visual stories that need atmosphere, rhythm, and replay value.
-        </p>
+  Visual storytelling driven by motion, atmosphere, sound,
+  and cinematic energy — crafted for concerts, nightlife,
+  automotive culture, and modern brands.
+</p>
         <a className="button" href="#book">
           Book a Shoot
         </a>
