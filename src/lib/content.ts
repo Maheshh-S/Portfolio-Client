@@ -32,28 +32,34 @@ export const tapeRows = [
 
 export const services = [
   {
-    title: "Promotional Videos",
-    description: "Launch films, reels, brand edits, and campaign visuals with a sharp commercial pulse."
+    title: "Promotional Films",
+    description:
+      "High-energy visuals for brands, creators, launches, campaigns, and social-first storytelling."
   },
   {
-    title: "Aftermovies",
-    description: "High-energy recaps that preserve the crowd, lights, drops, details, and emotion."
+    title: "Concert Coverage",
+    description:
+      "Crowd energy, stage atmosphere, artist moments, lighting, motion, and cinematic live experiences."
   },
   {
-    title: "Concert Shoots",
-    description: "Stage coverage, artist moments, crowd reactions, and cinematic event storytelling."
+    title: "Nightlife & DJ Visuals",
+    description:
+      "Fast-paced edits, booth angles, crowd reactions, transitions, and nightlife-focused content."
   },
   {
-    title: "DJ Shoots",
-    description: "Fast-cut performance content, booth angles, social clips, and nightlife visuals."
+    title: "Automotive Films",
+    description:
+      "Rolling shots, cinematic reveals, delivery moments, detail captures, and premium car storytelling."
   },
   {
-    title: "Car Deliveries",
-    description: "Premium delivery films, reveal moments, rolling shots, details, and owner highlights."
-  },
+  title: "Restaurants & Foods",
+  description:
+    "Cinematic content for cafés, restaurants, nightlife spaces, menus, interiors, signature dishes, and brand atmosphere."
+},
   {
-    title: "And More",
-    description: "Custom visuals for creators, venues, launches, businesses, and personal milestones."
+    title: "Creative Direction",
+    description:
+      "Concept development, visual mood planning, cinematic shot design, and social content direction."
   }
 ] as const;
 

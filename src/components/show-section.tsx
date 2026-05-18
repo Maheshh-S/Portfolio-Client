@@ -5,24 +5,25 @@ export function ShowSection() {
   return (
     <section className="booking-section" id="book" aria-labelledby="book-title">
       <article className="booking-card">
-        <p className="serial">VYBN · MYSORE · CINEMATIC VISUALS</p>
+        <p className="serial">VYBN · INDIA · CINEMATIC VISUALS</p>
         <h2 id="book-title">Book a Shoot</h2>
         <p className="booking-lead">
-          Promos, aftermovies, concerts, DJ sets, car deliveries, and custom visual stories.
+         Visual storytelling for nightlife, concerts, automotive culture, creators, brands, and cinematic experiences.
         </p>
         <div className="booking-meta">
-          <span>
-            <strong>Based in:</strong>
-            Mysore
-          </span>
-          <span>
-            <strong>Available for:</strong>
-            Events / Brands / Auto
-          </span>
-        </div>
+  <span>
+    <strong>Focused on</strong>
+    Concerts / Nightlife / Automotive / Ambience
+  </span>
+
+  <span>
+    <strong>Available for</strong>
+    Shoots / Campaigns / Events
+  </span>
+</div>
         <div className="contact-stack" aria-label="Contact links">
           <a href="https://wa.me/+916366583516">WhatsApp</a>
-          <a href="https://instagram.com/">Instagram</a>
+          <a href="https://www.instagram.com/vybn.visuals">Instagram</a>
           <a href="mailto:hello@vybnvisuals.com">Email</a>
         </div>
       </article>

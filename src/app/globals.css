@@ -808,6 +808,7 @@ h2 {
   color: var(--white);
 }
 
+
 .booking-card h2 {
   margin: 4rem 0 1.2rem;
 }
@@ -1006,8 +1007,12 @@ h2 {
   align-items: flex-end;
   justify-content: space-between;
   gap: 2rem;
-  min-height: 25rem;
-  padding: clamp(4rem, 8vw, 8rem) var(--grid);
+
+  padding:
+    clamp(2.5rem, 4vw, 4rem)
+    var(--grid)
+    clamp(1.5rem, 3vw, 2.5rem);
+
   background: var(--paper);
   color: var(--black);
 }
@@ -1327,11 +1332,17 @@ h2 {
     grid-template-columns: 1fr;
   }
 
-  .schedule-heading {
-    display: grid;
-    min-height: 18rem;
-    align-items: start;
-  }
+ .schedule-heading {
+  display: grid;
+  gap: 1rem;
+
+  padding:
+    2rem
+    1rem
+    1.2rem;
+
+  align-items: start;
+}
 
   .lookbook-grid {
     grid-template-columns: repeat(2, 1fr);

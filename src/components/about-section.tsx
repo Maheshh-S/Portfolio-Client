@@ -21,12 +21,12 @@ export function AboutSection() {
         <h2 id="about-title">Feel the rhythm of every frame</h2>
         <p>
           VYBN Visuals turns real moments into cinematic edits: the drop before a DJ set, the crowd
-          reaction after a chorus, the final key handover on a car delivery, and the tiny details that
+          reaction after a chorus, the final key handover on a automotive, and the tiny details that
           make a brand film feel alive.
         </p>
         <p>
           The work blends nightlife energy, premium automotive polish, street-level spontaneity, and clean
-          commercial storytelling for clients across Mysore and beyond.
+          commercial storytelling for clients across India.
         </p>
         <a className="button" href="#services">
           Explore Services

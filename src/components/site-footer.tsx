@@ -8,7 +8,7 @@ export function SiteFooter() {
         <a href="#" aria-label="Instagram">
           <InstagramIcon />
         </a>
-        <a href="#" aria-label="Video channel">
+        <a href="https://www.instagram.com/vybn.visuals" aria-label="Video channel">
           <VideoIcon />
         </a>
         <a className="back-top" href="#" aria-label="Back to top">
