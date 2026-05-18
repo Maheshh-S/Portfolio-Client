@@ -28,10 +28,17 @@ export function SiteHeader() {
   return (
     <>
       <header className={`site-header${isScrolled ? " is-scrolled" : ""}`} data-header>
-        <a className="brand" href="#" aria-label="VYBN Visuals home" onClick={closeMenu}>
-          <span className="brand-mark">VYBN</span>
-          <span className="brand-sub">VISUALS</span>
-        </a>
+       <a className="brand" href="#" aria-label="VYBN Visuals home" onClick={closeMenu}>
+  <span className="brand-star">✦</span>
+
+  <div className="brand-lockup">
+    <span className="brand-mark">VYBN</span>
+
+    <span className="brand-visuals">
+      VISUALS
+    </span>
+  </div>
+</a>
 
         <nav className="desktop-nav" aria-label="Primary navigation">
           {navigationItems.map((item) => (

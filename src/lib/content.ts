@@ -11,22 +11,22 @@ export const mobileNavigationItems = [
 ] as const;
 
 export const marqueeItems = [
-  "Mysore-based cinematic visuals",
+  "Cinematic visuals",
   "Promotional videos / aftermovies / concerts",
-  "DJ shoots / car deliveries / brand films",
+  "DJ shoots / Automotive / brand films",
   "Book your next visual story",
-  "Mysore-based cinematic visuals",
+  "Cinematic visuals",
   "Promotional videos / aftermovies / concerts"
 ] as const;
 
 export const tapeRows = [
   {
     className: "tape-lime",
-    items: ["Promos", "Aftermovies", "Concerts", "DJ shoots", "Car deliveries", "Brand films"]
+    items: ["Promos", "Aftermovies", "Concerts", "DJ shoots", "Automotive", "Brand films"]
   },
   {
     className: "tape-blue",
-    items: ["Every frame has a frequency", "Where motion meets mood", "Shot in Mysore", "Built for replay"]
+    items: ["Every frame has a frequency", "Where motion meets mood", "Built for replay"]
   }
 ] as const;
 

@@ -82,7 +82,7 @@ button {
   animation: marquee 24s linear infinite;
   font-family: var(--accent);
   font-size: clamp(0.88rem, 1.55vw, 1.55rem);
-  font-weight: 800;
+  font-weight: 100;
   letter-spacing: 0.08em;
   text-transform: uppercase;
   white-space: nowrap;
@@ -122,18 +122,72 @@ button {
   padding-left: 0.25rem;
 }
 
-.brand-mark {
-  font-family: var(--display);
-  font-size: clamp(1.45rem, 2.6vw, 2.4rem);
-  letter-spacing: 0.02em;
-  transform: skew(-7deg);
+
+
+.brand {
+  position: relative;
+
+  display: flex;
+  align-items: center;
+
+  text-transform: uppercase;
+
+  line-height: 1;
 }
 
-.brand-sub {
-  font-size: 0.63rem;
-  font-weight: 900;
-  letter-spacing: 0.42em;
+.brand-star {
+  position: absolute;
+
+  top: 0.1rem;
+  left: -0.9rem;
+
   color: var(--lime);
+
+  font-size: 0.7rem;
+
+  text-shadow:
+    0 0 10px rgba(217,255,0,0.5);
+}
+
+.brand-lockup {
+  position: relative;
+
+  display: inline-flex;
+  align-items: stretch;
+}
+
+.brand-mark {
+  font-family: var(--display);
+
+font-size: clamp(4.4rem, 3vw, 3.4rem);
+
+
+  line-height: 0.8;
+
+  letter-spacing: -0.08em;
+
+  color: var(--white);
+
+  /* transform: skew(-4deg); */
+}
+
+.brand-visuals {
+  writing-mode: vertical-rl;
+  text-orientation: mixed;
+
+  margin-left: 0.2rem;
+
+  font-family: var(--accent);
+
+  font-size: 0.52rem;
+
+  font-weight: 900;
+
+  letter-spacing: -0.02em;
+
+  color: var(--lime);
+
+  opacity: 0.95;
 }
 
 .desktop-nav {
@@ -342,14 +396,16 @@ button {
   color: currentColor;
   font-size: clamp(0.7rem, 1vw, 0.9rem);
   font-weight: 900;
-  letter-spacing: 0.36em;
+  letter-spacing: 0.2rem;
   text-transform: uppercase;
 }
 
 .hero .eyebrow {
+  color:var(--lime);  
+}
+.hero h1 {
   color: var(--lime);
 }
-
 h1,
 h2 {
   margin: 0;
@@ -386,7 +442,7 @@ h2 {
   height: clamp(2.1rem, 3.5vw, 3.4rem);
   font-family: var(--accent);
   font-size: clamp(0.72rem, 1.55vw, 1.35rem);
-  font-weight: 800;
+  font-weight: 100;
   letter-spacing: 0.12em;
   color: var(--black);
   text-transform: uppercase;
@@ -1184,6 +1240,17 @@ h2 {
 }
 
 @media (max-width: 640px) {
+
+  .brand-mark {
+    font-size: 2.4rem;
+  }
+
+.brand-visuals {
+    font-size: 0.3rem;
+    letter-spacing: -0.04em;
+  }
+
+
   :root {
     --grid: 1rem;
   }
