@@ -24,7 +24,7 @@ export function ShowSection() {
         <div className="contact-stack" aria-label="Contact links">
           <a href="https://wa.me/+916366583516">WhatsApp</a>
           <a href="https://www.instagram.com/vybn.visuals">Instagram</a>
-          <a href="mailto:hello@vybnvisuals.com">Email</a>
+          <a href="vybnvisuals.work@gmail.com">Email</a>
         </div>
       </article>
 
@@ -35,7 +35,7 @@ export function ShowSection() {
           fill
           sizes="(max-width: 980px) 100vw, 60vw"
         />
-        <a className="button" href="mailto:hello@vybnvisuals.com">
+        <a className="button" href="vybnvisuals.work@gmail.com">
           Book a Shoot
         </a>
       </div>
