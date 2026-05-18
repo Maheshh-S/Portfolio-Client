@@ -26,8 +26,8 @@ export default function Home() {
         <AboutSection />
         <ServicesSection />
         <ShowSection />
-        <ScheduleHeading />
         <FeaturedWorkSection />
+        <ScheduleHeading />
         <LookbookSection />
       </main>
       <SiteFooter />

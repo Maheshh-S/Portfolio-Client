@@ -148,6 +148,5 @@ export const lookbookImages: LookbookImage[] = [
 export const imageUrls = {
   about:
     "https://images.unsplash.com/photo-1516280440614-37939bbacd81?auto=format&fit=crop&w=1100&q=85",
-  booking:
-    "https://images.unsplash.com/photo-1492684223066-81342ee5ff30?auto=format&fit=crop&w=1400&q=85"
+   booking: "/images/booknow.png"
 } as const;

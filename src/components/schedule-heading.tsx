@@ -5,7 +5,7 @@ export function ScheduleHeading() {
         <p className="eyebrow">Portfolio</p>
         <h2 id="schedule-title">Featured Work</h2>
       </div>
-      <a href="#work">View Projects ↗</a>
+      <a href="#lookbook">View Projects ↗</a>
     </section>
   );
 }
