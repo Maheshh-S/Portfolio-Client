@@ -3,13 +3,17 @@ import type { ReactNode } from "react";
 import "./globals.css";
 
 export const metadata: Metadata = {
-  title: "VYBN Visuals | Cinematographer Portfolio",
+  title: "VYBN Visuals | Cinematic Visual Storytelling",
+
   description:
-    "VYBN Visuals is a Mysore-based cinematography portfolio for promotional videos, aftermovies, concerts, DJ shoots, automotive, and cinematic stories.",
-  metadataBase: new URL("https://vybn-visuals.vercel.app")
+    "Cinematic visuals for nightlife, concerts, brands, automotive culture, restaurants, promotions, and modern visual storytelling.",
+
+  metadataBase: new URL("https://vybnvisuals.vercel.app")
 };
 
-export default function RootLayout({ children }: Readonly<{ children: ReactNode }>) {
+export default function RootLayout({
+  children
+}: Readonly<{ children: ReactNode }>) {
   return (
     <html lang="en">
       <body>{children}</body>
