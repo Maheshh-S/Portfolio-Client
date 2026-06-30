@@ -17,7 +17,7 @@ const galleryItems = [
   "/gallery/11.mp4",
   "/gallery/14.mp4",
   "/gallery/12.mp4",
-  "/gallery/13.mp4",
+  // "/gallery/13.mp4",
 
 
 
