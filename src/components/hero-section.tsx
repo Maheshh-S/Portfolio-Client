@@ -15,7 +15,7 @@ export function HeroSection() {
       
       <div className="hero-shade" />
       <div className="hero-content">
-        <p className="eyebrow">Promos • Aftermovies • Concerts • Automotive</p>
+        <p className="eyebrow"> Concerts • Automotive •  Real Estate • Promos </p>
         <h1 id="hero-title">VYBN Visuals</h1>
       </div>
     </section>

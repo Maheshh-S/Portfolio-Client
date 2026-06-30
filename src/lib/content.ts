@@ -22,7 +22,7 @@ export const marqueeItems = [
 export const tapeRows = [
   {
     className: "tape-lime",
-    items: ["Promos", "Aftermovies", "Concerts", "DJ shoots", "Automotive", "Brand films"]
+    items: ["Promos", "Real Estate", "Concerts", "Automotive", "Brand films"]
   },
   {
     className: "tape-blue",
