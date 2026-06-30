@@ -4,23 +4,24 @@ import Image from "next/image";
 import { useRef, useState } from "react";
 
 const galleryItems = [
-  "/gallery/1.jpg",
+  // "/gallery/1.jpg",
   "/gallery/2.mp4",
-  "/gallery/3.png",
+  // "/gallery/3.png",
   "/gallery/4.mp4",
-  "/gallery/6.jpg",
+  // "/gallery/6.jpg",
   "/gallery/7.mp4",
-  "/gallery/5.jpg",
+  // "/gallery/5.jpg",
   "/gallery/8.mp4",
   "/gallery/9.mp4",
   "/gallery/10.mp4",
   "/gallery/11.mp4",
+  "/gallery/14.mp4",
   "/gallery/12.mp4",
-
   "/gallery/13.mp4",
 
-  "/gallery/14.mp4",
-  "/gallery/15.mp4"
+
+
+  // "/gallery/15.mp4"
 
 ];
 

@@ -11,11 +11,11 @@ export const mobileNavigationItems = [
 ] as const;
 
 export const marqueeItems = [
-  "Cinematic visuals",
   "Promotional videos / aftermovies / concerts",
-  "DJ shoots / Automotive / brand films",
+  "Real Estate & Property Visuals",
+  "Automotive / brand films",
   "Book your next visual story",
-  "Cinematic visuals",
+  // "Cinematic visuals",
   "Promotional videos / aftermovies / concerts"
 ] as const;
 
@@ -42,10 +42,9 @@ export const services = [
       "Crowd energy, stage atmosphere, artist moments, lighting, motion, and cinematic live experiences."
   },
   {
-    title: "Nightlife & DJ Visuals",
-    description:
-      "Fast-paced edits, booth angles, crowd reactions, transitions, and nightlife-focused content."
-  },
+  "title": "Real Estate & Property Visuals",
+  "description": "Cinematic walkthroughs, drone shots, interior highlights, architectural details, and high-conversion property showcase content."
+},
   {
     title: "Automotive Films",
     description:
