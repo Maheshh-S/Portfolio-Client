@@ -1,7 +1,7 @@
 export function HeroSection() {
   return (
     <section className="hero" aria-labelledby="hero-title">
-      <video
+      {/* <video
         className="hero-video"
         aria-label="VYBN Visuals showreel placeholder"
         autoPlay
@@ -11,7 +11,7 @@ export function HeroSection() {
         preload="metadata"
       >
         <source src="/videos/showreel.mp4" type="video/mp4" />
-      </video>
+      </video> */}
       
       <div className="hero-shade" />
       <div className="hero-content">

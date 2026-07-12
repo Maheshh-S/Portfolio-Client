@@ -824,11 +824,11 @@ h2 {
   margin: auto 0 2rem;
 }
 
-.booking-meta span {
+.booking-meta > span {
   display: grid;
   color: var(--white);
   font-size: clamp(1.1rem, 1.5vw, 1.55rem);
-  font-weight: 900;
+  font-weight: 400;
   line-height: 1.1;
 }
 

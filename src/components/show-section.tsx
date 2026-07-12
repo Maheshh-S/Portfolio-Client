@@ -13,7 +13,7 @@ export function ShowSection() {
         <div className="booking-meta">
   <span>
     <strong>Focused on</strong>
-    Real Estate / Automotive / Concerts / Promotional Shoots
+    <span>Real Estate / Automotive / Concerts / Promotional Shoots</span>
   </span>
 
   <span>
